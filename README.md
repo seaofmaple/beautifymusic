@@ -1,4 +1,4 @@
-# beautifymusic
+# beautifymusic 一个用vue、vuex和element UI 完成的音乐网站
 
 ## Project setup
 ```
