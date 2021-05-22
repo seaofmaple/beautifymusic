@@ -139,7 +139,7 @@ export default {
           }
           //找到比当前时间点 大一点的后一位的歌词的索引值
           this.lyricIndex = i - 1;
-          //动态绑定ref 根据距离顶部不同的位置来控制歌词滚动 (原生的滚动条动画效果未实现，需要的话可能需要换其他滚动条，eg:bater-scroll)
+          //动态绑定ref 根据距离顶部不同的位置来控制歌词滚动 
           //这里加入了一个效果就是滑下去查看歌词时，不会自动滑动 只有到了高亮显示在可视区才会滚动
           if (this.$refs.lyricRef[0].offsetTop > 100) {
             this.$refs.lyricScroll.scrollTop = this.$refs.lyricRef[0].offsetTop - 100;
